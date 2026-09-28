@@ -152,15 +152,6 @@ DELETE /api/books/1
 
 ## 7. Weekly Report
 
-### Week 4
-
-* Spring Boot 프로젝트의 기본 구조와 실행 방법을 학습했다.
-* Controller, Service, Repository 계층으로 역할을 분리하여 REST API CRUD를 구현했다.
-* Java Collection인 `Map`을 이용하여 데이터베이스 없이 데이터를 저장하는 In-Memory Repository를 구현했다.
-* DTO를 사용하여 API 요청과 응답 데이터를 분리했다.
-* 존재하지 않는 도서 ID에 대해 `404 NOT_FOUND`를 반환하도록 구현했다.
-
-###
 Key Learning: **Spring Boot REST API, Controller, DTO와 HTTP 상태 코드**
 
 CRUD Flow: **HTTP Request → Controller → Service → Repository → Memory(Map) → JSON Response**
