@@ -5,10 +5,12 @@ public class Book {
     private String title;
     private String author;
     private int price;
+    private String category;
+    private String isbn;
 
     public Book() {}
-    public Book(Long id, String title, String author, int price) {
-        this.id=id; this.title=title; this.author=author; this.price=price;
+    public Book(Long id, String title, String author, int price, String category, String isbn) {
+        this.id=id; this.title=title; this.author=author; this.price=price; this.category=category; this.isbn=isbn;
     }
     public Long getId(){ return id; }
     public void setId(Long id){ this.id=id; }
@@ -18,4 +20,8 @@ public class Book {
     public void setAuthor(String author){ this.author=author; }
     public int getPrice(){ return price; }
     public void setPrice(int price){ this.price=price; }
+    public String getCategory(){ return category; }
+    public void setCategory(String category){ this.category=category; }
+    public String getIsbn(){ return isbn; }
+    public void setIsbn(String isbn){ this.isbn=isbn; }
 }
