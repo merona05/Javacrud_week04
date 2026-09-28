@@ -162,12 +162,16 @@ DELETE /api/books/1
 
 ###
 Key Learning: **Spring Boot REST API, Controller, DTO와 HTTP 상태 코드**
+
 CRUD Flow: **HTTP Request → Controller → Service → Repository → Memory(Map) → JSON Response**
+
 Problem & Solution: 지난 수업을 듣지 못해서 스프링부트 전반에 대해 이해하지 못한채 과제를 시작하였으나 프로그래머이신 아버지께 질문을드려서 스프링부트가 무엇이고 이전에 했던 것과 어떻게 다른지 공부하였습니다.
+
 Code Review: 
 저는 BookController의 도서 생성 코드가 제일 중요하다고 생각하였습니다.
 이 코드를 통해 HTTP POST 요청을 받아 DTO로 데이터를 전달하고, Service에서 처리한 결과를 다시 응답으로 반환하는 REST API의 전체적인 흐름을 이해할 수 있었고,  201 Created를 사용하여 요청이 성공적으로 처리되었음을 HTTP 상태 코드로 표현하는 방법도 알게 되었습니다.
 새롭게 배운 부분을 명확히 짚어내는 코드라고 생각해서 중요하다고 보았습니다.
+
 Reflection: 스프링부트를 쓰면서도 데이터베이스를 사용하지 않았던 이유가 무엇인지 궁금합니다. 단지 새로운 작업이기에 우선은 제외한 것인지, 아니면 특별한 이유가 있는지 알고 싶습니다.
 
 ## 8. 테스트 결과
